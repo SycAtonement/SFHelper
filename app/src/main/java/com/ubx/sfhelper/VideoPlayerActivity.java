@@ -23,13 +23,13 @@ public class VideoPlayerActivity extends AppCompatActivity {
         videoView = findViewById(R.id.videoView);
 
         // 设置视频路径
-        if (videoNumber == 1) {
-            videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.ubx_video); // 更换为你的视频资源
-        } else if (videoNumber == 2) {
-            videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.dj_video); // 更换为你的视频资源
-        } else {
-            finish();
-        }
+//        if (videoNumber == 1) {
+//            videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.ubx_video); // 更换为你的视频资源
+//        } else if (videoNumber == 2) {
+//            videoUri = Uri.parse("android.resource://" + getPackageName() + "/" + R.raw.dj_video); // 更换为你的视频资源
+//        } else {
+//            finish();
+//        }
 
         // 设置MediaController
         mediaController = new MediaController(this);
